@@ -1,0 +1,646 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+a:hover {
+    color:blue;
+    text-decoration:none;
+}
+img {
+    border:0px none;
+}
+
+.box img {
+    border:0px none;
+    -moz-box-shadow: 3px 3px 2px #888888; /* Firefox 3.6 and earlier */
+    -webkit-box-shadow: 3px 3px 2px #888888; /* Safari and Chrome */
+
+}
+h1 {
+    color:#6fbc18;
+    font-size:24px;
+    font-weight:bold;
+    padding:0 0 20px 0;
+}
+.container { 
+    width: 900px;  
+    margin: 0 auto;
+}
+
+.maindiv{
+    -moz-border-radius-topleft: 30px;
+    -moz-border-radius-topright: 30px;
+    height: 900px;
+    background-color: #FFFFFF;
+    background:#d2a10f;
+    background-repeat: repeat-y;
+    position:relative
+
+}
+
+.headerdiv{
+    height: 180px;
+    position:relative;
+    width: 860px;  
+    margin: 0 auto;
+	background-image: url('../img/headergrd.jpg');
+        border-radius: 30px 30px 0 0;
+}
+
+.headerdiv img {
+border: 0 none;
+    border-radius: 20px;
+}
+
+.companyname {
+    font-family: Georgia,'Times New Roman',times,Garamond,serif;
+    color: #207AB3;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    left: 50px;
+    position: relative;
+    top: 40px;
+    width: 570px;
+}
+
+.companymoto{
+	font-family: Georgia,'Times New Roman',times,Garamond,serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    left: 150px;
+    position: relative;
+    top: 50px;
+    width: 570px;
+}
+.companylogo {
+float: left;
+    left: 40px;
+    position: relative;
+    top: 0;
+    background-image: url('../img/logogrd.jpg');
+    width: 120px;
+    height: 110px;
+}
+.companylogo img {
+border: 0 none;
+    border-radius: 30px 30px 0 0;
+    left: 6px;
+    position: relative;
+    top: 9px;
+}
+.topmenu {
+    color: white;
+    float: right;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    top: -80px;
+    color:black;
+}
+
+.topmenu a{
+    color: white;   
+}
+
+.menudiv{
+    height: 46px;
+    background-image: url('../img/menugrd.jpg');
+    left:-20px;
+    width: 900px;  
+    margin: 0 auto;
+    left:0px;
+    behavior: url(css/border-radius.htc);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.menulinks {
+    position: relative;
+    top: 0px;
+}
+
+.menudiv ul {
+    width: auto;	
+    left:20px;
+    position:relative;
+}
+
+.menudiv li {
+    display: inline;
+    width: auto;	
+}
+
+
+.menudiv a {
+    background-image: url('../img/menugrd.jpg');
+    color: #ffffff;
+    padding: 13px;	
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menudiv a:hover{
+    font-size: 21px;
+    color: snow;
+    background: #888888;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.maincontaint{
+    position: relative;
+    top: 15%;
+}
+
+#footermenu {
+    background-image: url("../img/headergrd.jpg");
+    padding: 5px 0 10px 0; 
+    width: 860px;
+    margin: 0 auto;
+    height: 100px;
+    font-size:14px;
+	
+}
+
+#footermenu a {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#footermenu tr{
+    color: #004747;
+}
+#footer {
+    background-image: url('../img/menugrd.jpg');
+    padding:23px 0; 
+    position: relative;
+    -moz-border-radius-bottomleft: 30px;
+    -moz-border-radius-bottomright: 30px;
+    border-radius: 0px 0px 30px 30px;
+    height: 0px;
+    width: 860px;
+    margin: 0 auto;    
+}
+#footer p {
+    text-align:center;
+    font-weight:bold;
+    color: #ffff66;
+	font-size: 14px;
+} 
+
+
+#searchbox {
+    background: url('../img/searchBox.jpg') no-repeat 0 0;
+    display: block;
+    float: right;
+    height: 38px;
+    left: -50px;
+    position: relative;
+    top: -15px;
+    width: 184px;
+    behavior: url(css/border-radius.htc);
+    -moz-border-radius-topright: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -moz-border-radius-topleft: 30px;
+    -webkit-border-top-left-radius: 30px;
+    -moz-border-radius-bottomright: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    border-radius: 30px;
+}
+
+
+
+#searchbox .textfield {
+    background:transparent none repeat scroll 0 0;
+    border:none;
+    float:left;
+    margin-right:17px;
+    margin-left:10px;
+    margin-top:8px;
+    padding-top:2px;
+    width:125px;
+    height:23px;
+    color:black;
+    font-weight: bold;
+}
+
+#searchbox .button {
+    background:transparent none repeat scroll 0 0;
+    border:none;
+    cursor:pointer;
+    float:left;
+    height:22px;
+    margin-top:8px;
+    width:18px;
+}
+
+#searchbox .textfield:focus{
+    outline:none;
+    background:red url('../img/searchBox.jpg') no-repeat scroll -10px -46px;
+}
+
+#scrollerdiv{
+    top: -720px;
+    padding: 10px;
+    position:relative
+}
+
+#contentdiv{
+    top: -720px;
+    padding: 10px;
+    position:relative
+}
+
+.maincontents {
+    height: 500px;
+    margin: 0 auto;
+    width: 840px;
+    padding: 10px;
+    background-color: #888888;
+}
+
+.ContactText{
+    float:left;
+    position:relative;
+    background-color: #ffffff;
+    width:400px;
+    height:480px;
+}
+
+.mainText{
+    float:left;
+    position:relative;
+    background-color: #ffffff;
+    width:840px;
+    height:500px;
+}
+
+.mainText p{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:20px;
+    font-weight:200;
+    color:black;
+    padding-left:20px;
+    color: #234784;
+}
+
+.mainText strong{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    font-weight:200;
+    color:black;
+    padding-left:20px;
+    color: #234784;
+    font-weight: bold;
+}
+
+.description{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:12px;
+    font-weight:200;
+    color:black;
+    padding-left:50px;
+}
+
+.ContactText p{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:20px;
+    font-weight:200;
+    color:black;
+    padding-left:20px;
+    color: #234784;
+}
+
+.ContactMap{
+    float:right;
+    position:relative;
+}
+
+.bucketgroup {
+    margin: -1px 0 0;
+    padding: 0 0 0 5px;
+    width: 100%; 
+    height: 500px; 
+}
+
+.bucketgroup .bucket {
+    background-color: #FFFFFF;
+    float: left;
+    height: 250px !important;
+    margin: 2px 0 2px 5px;
+    padding: 0;
+    position: relative;
+    width: 190px !important;
+    border: 1px dashed #999999;
+}
+
+.bucketgroup .bucket .bucket_left{
+}
+
+.bucketgroup .bucket .bucket_left img.mtb-img {
+    background: url('img/ajaxloader.gif') no-repeat 0 0;
+    height: 130px;
+    left: 40px;
+    padding: 4px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    width: 130px
+}
+
+.bucketgroup .bucket .bucket_left h4.mtb-title {
+    color: #0C7100;
+    font-size: 12px;
+    font-weight: bold;
+    height: 31px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 124px;
+    width: 100%;
+}
+
+.bucketgroup .bucket .bucket_left span.mtb-price {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 158px;
+    width: 100%;
+}
+
+.bucketgroup .bucket .bucket_left p.mtb-desc {
+    display: none;
+}
+
+.bucketgroup .bucket .bucket_left label.mtb-ofr {
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.links {
+    height: 100%;
+    width: 200px;
+    background: none repeat scroll 0 0 #aaaaaa;
+    float: left;
+}
+
+
+.link0 {
+    height: 35px;
+    width: 100%;
+    background: none repeat scroll 0 0 #CCCCCC;
+    font-family: "Tahoma",Verdana,Arial,Trebuchet MS;
+    font-size: 12px;
+    font-weight:bold;
+    color: #000000;
+}
+
+.link1 {
+    height: 35px;
+    width: 100%;
+    background: none repeat scroll 0 0 #aba396;
+    font-family: "Tahoma",Verdana,Arial,Trebuchet MS;
+    font-size: 12px;
+    font-weight:bold;
+    color: #000000;
+}
+
+homeproductlist{
+    background-color: #D2A10F;
+    float: right;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+}
+
+.followus{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:20px;
+    font-weight:200;
+    color:white;
+    padding-left:20px;
+    color: #234784;
+}
+
+.product{
+    background:url('../img/lisitingbg.jpg') repeat scroll 0 0;
+    float:left;
+    height:100px;
+    position:relative;
+    width:618px;
+}
+.productThumbnail {
+    background-color:#CCCCCC;
+    border:1px solid #999999;
+    left:5px;
+    padding:5px;
+    position:relative;
+    top:5px;
+    width:70px;
+}
+.details{
+    height:79px;
+    left:100px;
+    position:relative;
+    top:-75px;
+    width:300px;
+}
+
+.productName {
+    color:gray;
+    font-size:20px;
+    font-weight:bold;
+    height:25px;
+    position:relative;
+    width:500px;
+}
+
+.productName a{
+    text-decoration:none;
+    color:#3366CC;
+}
+
+.productDesc{
+    height:35px;
+    position:relative;
+    width:400px;
+    left:30px;
+    font-size:12px;
+}
+
+.productPrice{
+    color:#FF6600;
+    font-size:20px;
+    font-weight:bold;
+    height:25px;
+    position:relative;
+    width:300px;
+}
+
+.views {
+    float:right;
+    height:79px;
+    position:relative;
+    top:-130px;
+    width:50px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.productThumbnail a img {
+    border: 0px none;
+}
+#largeImage {
+    position: absolute;
+    padding: 8px;
+    background-color: #e3e3e3;
+    border: 1px solid #bfbfbf;
+}
+
+.DetailProductView {
+    height:100%;
+    position:relative;
+    width:600px;
+}
+
+.DetailProductName {
+    height:10%;
+    position:relative;
+    width:100%;
+    float:left;
+}
+
+.DetailProductImage {
+    height:250px;
+    position:relative;
+    width:250px;
+    float:left;
+}
+
+.DetailProductDesc{
+    position:relative;
+    width:300px;
+    float:right;
+}
+
+.DetailProductPrice{
+    color:red;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.DetailProductViews{
+    color:#006969;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.loginDiv{
+    background-color: #d2a10f;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 840px;
+}
+
+.logintitle{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.loginbox{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+
+.loginsubtitle{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    float: left;
+    text-align: right;
+}
+
+.errorMessage {
+	font-family: "Courier New", "Courier", "mono";
+	font-size: 16px;
+	font-weight: bolder;
+	color: #CC3300;
+        height: 100px;
+        text-align: center;
+}
+
+.errorMessageAdmin {
+	font-family: "Courier New", "Courier", "mono";
+	font-size: 16px;
+	font-weight: bolder;
+	color: #CC3300;
+        height: 20px;
+        text-align: center;
+}
+
+.box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #336699;
+}
+
+.FrmButton {
+background-color:#F7F2E2;
+border-color:#D2C194;
+border-style:solid;
+border-width:3px 1px;
+color:#000000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:bold;
+height:25px;
+}
+
+.hotdeals {
+    color: #F7F2E2;
+    display: none;
+    font-weight: bold;
+    position: relative;
+    left: 275px;
+    top: -25px;
+    float: right;
+    width: 120px;
+    height: 60px;   
+}
+
+.hotdealsDetails {
+    color: Navy;
+    font-family: monospace;
+    font-size: 19px;
+    font-weight: bolder;
+    left: 570px;
+    position: relative;
+    top: -10px;
+    width: 200px;	
+}
